@@ -2,9 +2,7 @@ import React from 'react'
 
 const Loading = () => {
   return (
-    <div>
-      LOADING!!!
-    </div>
+    <div>Loading</div>
   )
 }
 

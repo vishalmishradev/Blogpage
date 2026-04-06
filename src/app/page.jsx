@@ -1,20 +1,20 @@
+import Image from "next/image";
+import styles from "./page.module.css";
+import Button from "@/components/Button/Button";
 import React from 'react'
-import styles from './page.module.css'
-import Image from 'next/image'
 
-const Home = () => {
+export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
         <h1 className={styles.title}>
-          Better design for your digital products!!
+          Better design for your digital products.
         </h1>
         <p className={styles.desc}>
-          Turning your ideas into reality. We bring together global tech industry.
+          Turning your Idea into Reality. We bring together the teams from the
+          global tech industry.
         </p>
-        <button className={styles.button}>
-          See our work!!
-        </button>
+        <Button url="/portfolio" text="See Our Works"/>
       </div>
 
       <div className={styles.item}>
@@ -28,7 +28,5 @@ const Home = () => {
         />
       </div>
     </div>
-  )
+  );
 }
-
-export default Home
