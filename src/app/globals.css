@@ -12,16 +12,30 @@ body {
   color: #bbb;
 
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
-
+}
+/* 
+.theme{
+  transition: 1s all ease;
 }
 
-.container{
+.light {
+  background-color: white;
+  color: #111;
+}
+
+.dark {
+  background-color: #111;
+  color: #bbb;
+} */
+
+.container {
   max-width: 1366px;
-  max-height: 100vh;
-  margin:0 auto;
+  min-height: 100vh;
+  margin: 0 auto;
   padding: 0 60px;
   display: flex;
   flex-direction: column;
