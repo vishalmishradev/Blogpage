@@ -13,8 +13,8 @@ const links = [
   },
   {
     id: 2,
-    title: "Portfolio",
-    url: "/portfolio",
+    title: "About",
+    url: "/about",
   },
   {
     id: 3,
@@ -23,8 +23,8 @@ const links = [
   },
   {
     id: 4,
-    title: "About",
-    url: "/about",
+    title: "Portfolio",
+    url: "/portfolio",
   },
   {
     id: 5,
