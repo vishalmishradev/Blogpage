@@ -13,7 +13,7 @@ const BlogPost = () => {
             This is a demo title for my blog page
           </h1>
           <p className={styles.desc}>
-            This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.
+            This is a demo description of my web page.This is a demo description of my web page.This is a demo description of my web page.
           </p>
           <div className={styles.author}>
            <Image
@@ -46,6 +46,16 @@ const BlogPost = () => {
          This is a demo description of my web page.
          This is a demo description of my web page.
          This is a demo description of my web page.
+         his is a demo description of my web page.
+        This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         This is a demo description of my web page.
+         
 
         </p>
       </div>
